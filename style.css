@@ -103,6 +103,7 @@ button.normal {
 
 #hero button {
     background-color: transparent;
+    background-image: url("images/button.png");
     color: #088178;
     border: 0;
     padding: 14px 80px;
@@ -110,6 +111,36 @@ button.normal {
     font-weight: 700;
 }
 
+#feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#feature .fe-box {
+    border: 1px rgb(167, 164, 164) solid;
+    border-radius: 3px;
+    width: 18%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: ease;
+    
+}
+
+#feature .fe-box:hover {
+    box-shadow: 0 0 3px 3px rgb(221, 221, 223);
+}
+
+#feature .fe-box h6 {
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    background-color: #cce7d0;
+    border-radius: 4px;
+}
 /* Cart Icon */
 #cart-icon {
     font-size: 18px;
