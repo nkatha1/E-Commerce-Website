@@ -153,7 +153,16 @@ button.normal {
 
 /* Product Section */
 #product1 {
+    
     text-align: center;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 #product1 .pro {
