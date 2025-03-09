@@ -137,6 +137,7 @@ button.normal {
 #feature .fe-box h6 {
     text-align: center;
     padding: 8px;
+    font-size: 15px;
     margin: 5px;
     background-color: #cce7d0;
     border-radius: 4px;
@@ -172,7 +173,7 @@ button.normal {
 
 /* Product Section */
 #product1 {
-    
+    /* margin-top: 10px; */
     text-align: center;
 }
 
@@ -231,6 +232,23 @@ button.normal {
 #product1 .pro .cart-plus:hover {
     transform: scale(1.1);
 }
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/banner/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+#banner h4, h2 {
+    color: white;
+}
+
+
 
 /* Cart Modal */
 #cart-modal {
