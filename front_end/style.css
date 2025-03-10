@@ -212,6 +212,11 @@ button.normal {
     color: rgb(231, 181, 15);
 }
 
+#product1 .pro-container .pro .des h4 {
+    color: #088178;
+    padding-top: 10px;
+}
+
 #product1 .pro-container .pro img {
     width: 100%;
     border-radius: 20px;
