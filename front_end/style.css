@@ -60,12 +60,14 @@ button.normal {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     position: sticky;
     top: 0;
+
 }
 
 /* Navbar */
 #navbar {
     display: flex;
     justify-content: space-between;
+    /* z-index: 999; */
 }
 
 #navbar li {
@@ -183,9 +185,10 @@ button.normal {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    
 }
 
-#product1 .pro {
+#product1 .pro-container .pro {
     position: relative;
     width: 23%;
     min-width: 250px;
@@ -194,9 +197,22 @@ button.normal {
     border-radius: 25px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
+    z-index: -1;
 }
 
-#product1 .pro img {
+#product1 .pro-container .pro .des {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+}
+
+#product1 .pro-container .pro .des .star{
+    color: rgb(231, 181, 15);
+}
+
+#product1 .pro-container .pro img {
     width: 100%;
     border-radius: 20px;
 }
@@ -244,10 +260,21 @@ button.normal {
     height: 40vh;
 }
 
-#banner h4, h2 {
+#banner h4 {
     color: white;
+    font-size: 16px;
 }
 
+#banner h2 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span {
+    font-size: 40px;
+    color: red;
+}
 
 
 /* Cart Modal */
